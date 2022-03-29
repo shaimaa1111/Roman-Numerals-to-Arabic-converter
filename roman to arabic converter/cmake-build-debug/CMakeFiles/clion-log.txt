@@ -1,0 +1,35 @@
+"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja "C:\Users\Hanafi Rashad\OneDrive\سطح المكتب\roman to arabic converter"
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+CMake Error:
+  Running
+
+   'C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/ninja.exe' '-C' 'C:/Users/Hanafi Rashad/OneDrive/سطح المكتب/roman to arabic converter/cmake-build-debug/CMakeFiles/CMakeTmp' '-t' 'recompact'
+
+  failed with:
+
+   ninja: fatal: chdir to 'C:/Users/Hanafi Rashad/OneDrive/??? ??????/roman to arabic converter/cmake-build-debug/CMakeFiles/CMakeTmp' - Invalid argument
+
+
+
+CMake Error:
+  Running
+
+   'C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/ninja.exe' '-C' 'C:/Users/Hanafi Rashad/OneDrive/سطح المكتب/roman to arabic converter/cmake-build-debug/CMakeFiles/CMakeTmp' '-t' 'restat' 'build.ninja'
+
+  failed with:
+
+   ninja: fatal: chdir to 'C:/Users/Hanafi Rashad/OneDrive/??? ??????/roman to arabic converter/cmake-build-debug/CMakeFiles/CMakeTmp' - Invalid argument
+
+
+
+CMake Error at C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake:49 (try_compile):
+  Failed to generate test project build system.
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Hanafi Rashad/OneDrive/سطح المكتب/roman to arabic converter/cmake-build-debug/CMakeFiles/CMakeOutput.log".
